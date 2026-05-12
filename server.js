@@ -56,7 +56,7 @@ function svgText(text, options = {}) {
 app.get("/", (req, res) => {
   res.json({
     ok: true,
-    message: "coze poster relay is running"
+    message: "coze poster relay v2 is running"
   });
 });
 
